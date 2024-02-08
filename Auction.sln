@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B217D6EE-72C8-4134-916F-B2952348F6EE}"
+	ProjectSection(SolutionItems) = preProject
+		src\.gitignore = src\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD85F153-1106-4BBB-BD6A-E0B226B03642}"
+	ProjectSection(SolutionItems) = preProject
+		tests\.gitignore = tests\.gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction.API", "src\Auction.API\Auction.API.csproj", "{707F1260-B2A1-4CBC-AAF3-C6F3558188CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{707F1260-B2A1-4CBC-AAF3-C6F3558188CE} = {B217D6EE-72C8-4134-916F-B2952348F6EE}
+		{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5} = {CD85F153-1106-4BBB-BD6A-E0B226B03642}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{707F1260-B2A1-4CBC-AAF3-C6F3558188CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707F1260-B2A1-4CBC-AAF3-C6F3558188CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707F1260-B2A1-4CBC-AAF3-C6F3558188CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707F1260-B2A1-4CBC-AAF3-C6F3558188CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4E24A3-6861-49A3-8AC1-5944C20B2DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
